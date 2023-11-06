@@ -22,8 +22,8 @@ public class TagExtractor extends JFrame {
 
         textArea = new JTextArea(10,40);
         JScrollPane scrollPane = new JScrollPane(textArea);
-        openFileBtn = new JButton("Open Text File");
-        openStopWordBtn = new JButton("Open Stop Words File");
+        openFileBtn = new JButton("Select Text File");
+        openStopWordBtn = new JButton("Select Stop Words File");
         extractTagsBtn = new JButton("Extract Tags");
         saveTagsBtn = new JButton("Save Tags");
 
